@@ -1,0 +1,45 @@
+body {
+    background: rgb(116, 136, 79);
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.BigCircle1 {
+    width: 200px;
+    height: 100px;
+    background: black;
+    border-color: rgb(250, 250, 250);
+    border-style: solid;
+    border-width: 2px 2px 100px 2px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.circle1 {
+    width: 25px;
+    height: 25px;
+    border: 37.5px solid black;
+    background-color: #FAFAFA;
+    float: left;
+    position: absolute;
+    border-radius: 50%;
+    top: 50px;
+    left: 100px;
+}
+
+.circle2 {
+    width: 25px;
+    height: 25px;
+    border: 37.5px solid #FAFAFA;
+    background-color: black;
+    float: left;
+    position: absolute;
+    border-radius: 50%;
+    top: 50px;
+    left: 0px;
+}
