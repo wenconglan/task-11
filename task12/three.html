@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>左中右布局</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .leftSide{
+            width: 500px;
+            background-color: brown;
+            margin-right: 10px;
+        }
+        .main{
+            height: 400px;
+            flex: 1;
+            background-color: greenyellow;
+            margin: 0 10px;
+
+        }
+        .rightSide{
+            width:500px;
+            /*flex: 1;*/
+            background-color: blueviolet;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">左</div>
+        <div class="main">中</div>
+        <div class="rightSide">右</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>两栏（左右）布局</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .leftSide{
+            width: 500px;
+            background-color: brown;
+            margin-right: 10px;
+        }
+        .rightSide{
+            height: 400px;
+            width:500px;
+            /*flex: 1;*/
+            background-color: blueviolet;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">左</div>
+        <div class="rightSide">右</div>
+    </div>
+</body>
+</html>
